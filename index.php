@@ -48,7 +48,7 @@
 	<div class="ui-widget" id="login-form">
 	    <div class="ui-widget-content ui-corner-all">
 	    		<div class="ui-widget-header ui-corner-all ui-helper-clearfix">Digite seu nome para entrar no chat</div>
-	    		<form method="post">
+	    		<form method="post" action="chat.php">
 	    			<label>Nome:<input type="text" name="name" class="ui-corner-all"></label><button>Entrar</button>
 	    		</form>
 		</div>
